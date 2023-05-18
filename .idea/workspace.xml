@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13408982-2b47-4ae5-8a67-561b122ed463" name="Changes" comment="second push">
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/review/ApiTest.feature" afterDir="false" />
+    <list default="true" id="13408982-2b47-4ae5-8a67-561b122ed463" name="Changes" comment="third push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/review/DataDrivenTest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/review/UITest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/review/UseJavaFiles.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,16 +59,16 @@
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU10_Karate_Framework\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: search method">
-    <configuration name="Scenario: assert" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Google Search">
+    <configuration name="Scenario: Data driven for search spartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/review/BasicFunctions.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/review/DataDrivenTest.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="EU10_Karate_Framework" />
-      <option name="NAME_FILTER" value="^assert$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^assert$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: assert" />
+      <option name="NAME_FILTER" value="^Data driven for search spartan$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Data driven for search spartan$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Data driven for search spartan" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -78,15 +80,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: match contains" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Google Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/review/BasicFunctions.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/review/UITest.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="EU10_Karate_Framework" />
-      <option name="NAME_FILTER" value="^match contains$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^match contains$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: match contains" />
+      <option name="NAME_FILTER" value="^Google Search$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Google Search$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Google Search" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: java files import" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/review/UseJavaFiles.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="EU10_Karate_Framework" />
+      <option name="NAME_FILTER" value="^java files import$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^java files import$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: java files import" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -101,6 +123,7 @@
     <configuration name="Scenario: search method" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/review/ApiTest.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="EU10_Karate_Framework" />
       <option name="NAME_FILTER" value="^search method$" />
@@ -117,35 +140,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: single spartan validation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: simple printing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/review/ApiTest.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/review/DataDrivenTest.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="EU10_Karate_Framework" />
-      <option name="NAME_FILTER" value="^single spartan validation$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^single spartan validation$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: single spartan validation" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: status code test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/review/ApiTest.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="EU10_Karate_Framework" />
-      <option name="NAME_FILTER" value="^status code test$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^status code test$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: status code test" />
+      <option name="NAME_FILTER" value="^simple printing$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^simple printing$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: simple printing" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Google Search" />
+        <item itemvalue="Cucumber Java.Scenario: java files import" />
+        <item itemvalue="Cucumber Java.Scenario: Data driven for search spartan" />
+        <item itemvalue="Cucumber Java.Scenario: simple printing" />
         <item itemvalue="Cucumber Java.Scenario: search method" />
-        <item itemvalue="Cucumber Java.Scenario: single spartan validation" />
-        <item itemvalue="Cucumber Java.Scenario: status code test" />
-        <item itemvalue="Cucumber Java.Scenario: match contains" />
-        <item itemvalue="Cucumber Java.Scenario: assert" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +179,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683937677133</updated>
       <workItem from="1683937678324" duration="5488000" />
-      <workItem from="1684428172249" duration="3198000" />
+      <workItem from="1684428172249" duration="5465000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1683939826110</created>
@@ -199,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684431451264</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="third push">
+      <created>1684432183802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684432183802</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +219,7 @@
     <MESSAGE value="project created" />
     <MESSAGE value="first push" />
     <MESSAGE value="second push" />
-    <option name="LAST_COMMIT_MESSAGE" value="second push" />
+    <MESSAGE value="third push" />
+    <option name="LAST_COMMIT_MESSAGE" value="third push" />
   </component>
 </project>
