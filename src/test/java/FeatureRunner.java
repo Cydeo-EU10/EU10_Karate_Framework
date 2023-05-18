@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Karate.class)
 @KarateOptions(
-        tags = "@smoke"
+        tags = "@basic"
 )
 public class FeatureRunner {
 }
