@@ -23,3 +23,66 @@ Feature: Basic Functions
     * print spartan1.name
 
 
+  Scenario: more def objects
+    Given def spartan =
+      """
+       {
+    "content": [
+        {
+            "id": 25,
+            "name": "Valentin",
+            "gender": "Male",
+            "phone": 1536037088
+        },
+        {
+            "id": 944,
+            "name": "Vallie",
+            "gender": "Male",
+            "phone": 9516284951
+        }
+    ],
+    "totalElement": 2
+}
+      """
+    * print spartan.content[0].name
+    * print spartan.content[1].phone
+    * print spartan.totalElement
+
+
+  Scenario: assert
+    * match 2 == 2
+#    * match "house" == "house"   // check this one
+    Given def name1 = 'Cydeo'
+    Given def name2 = 'Cydeo'
+    Then match name1 == name2
+
+
+    Scenario: match contains
+      Given def spartan =
+      """
+       {
+    "content": [
+        {
+            "id": 25,
+            "name": "Valentin",
+            "gender": "Male",
+            "phone": 1536037088
+        },
+        {
+            "id": 944,
+            "name": "Vallie",
+            "gender": "Male",
+            "phone": 9516284951
+        }
+    ],
+    "totalElement": 2
+}
+      """
+      * match spartan.content contains {'id':944, 'name':'Vallie','gender':'Male','phone':9516284951}
+
+
+
+
+
+
+
